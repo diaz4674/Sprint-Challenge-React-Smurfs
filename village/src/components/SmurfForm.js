@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 
 class SmurfForm extends Component {
   constructor(props) {
@@ -54,9 +53,9 @@ class SmurfForm extends Component {
             placeholder="height"
             value={this.state.smurf.height}
             name="height"
-            type = 'text'
+            type = 'number'
           />
-          <button type="submit">Add to the village</button>
+          <button>Add to the village</button>
         </form>
       </div>
     );
