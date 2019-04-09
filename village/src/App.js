@@ -46,7 +46,7 @@ class App extends Component {
   // You'll need to make sure you have the right properties on state and pass them down to props.
   render() {
     return (
-      <div className="App">.
+      <div className="App">
         <Navigation />
         <Route  path="/smurf-form" render={props => <SmurfForm {...props} updateSmurfs={this.updateSmurfs} />} /> 
         <Route  exact path="/" render={props => <Smurfs {...props} smurfs={this.state.smurfs} />} />
